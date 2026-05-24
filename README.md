@@ -1,4 +1,4 @@
-# FRC Team 2910 coding conventions
+# FRC Team 9449 coding conventions
 
 This is the repository containing FRC Team 9449's coding conventions for Java and ALL repositories
 
