@@ -13,27 +13,26 @@ public class Conventions { // classes use UpperCamelCase
 	// when reading variables, use "get" and "set" as prefixes
 
 	public int getYellowjacketsTeamNumber() { // method names are lowerCamelCase, and should describe exactly what the method does
-		return 9449;
+	  return 9449;
 	}
 
 	public void setExampleFieldVariable(double thisIsAField) { // method names are lowerCamelCase, and should describe exactly what the method does
-		this.thisIsAField = thisIsAField;
+	  this.thisIsAField = thisIsAField;
 	}
 
 	//command based structure should have runCamelCase
 	//example below 
 
-	// public Command runIntakeBumpCommand() {
-    //      return run(
-    //     () -> {
-    //         setTargetArmPosition(ArmConstants.PIVOT_BUMP);
-    //           });
+	//public Command runIntakeBumpCommand() {
+    //  return run(() -> {
+    //    setTargetArmPosition(ArmConstants.PIVOT_BUMP);
+    //  });
     // }
-    
 
+	//indentations are 2 spaces which is 1 tab after you double space the first line 
 	public enum EVENT { // enums use SCREAMING_SNAKE_CASE
-		CANPAC,
-		IDAHO, 
-		WORLD_CHAMPIONSHIPS
+  	  CANPAC,
+	  IDAHO, 
+	  WORLD_CHAMPIONSHIPS
 	}
 }
